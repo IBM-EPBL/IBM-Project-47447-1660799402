@@ -1,0 +1,7 @@
+from gpiozero import Button, Traffic light
+Lights= Light[25,6,7]
+While True:
+           button.wait_for_press()
+Lights.on()
+button.wait_for_release()
+Lights.off()
